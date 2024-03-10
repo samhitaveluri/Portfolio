@@ -1,4 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Use `npm i` to run the node modules and then `npm run dev`.<br>
+The app can be accessed at `http://http://localhost:5173/`
 

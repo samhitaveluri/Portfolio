@@ -1,4 +1,4 @@
-import { useRef } from "react";
+ import { useRef } from "react";
 import "./portfolio.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
@@ -7,19 +7,22 @@ const items = [
     id: 1,
     title: "Animenz",
     img: "/animenz.png",
-    desc: "This web app with good user interface gives animes suggestions based on searched anime. It uses KNN alogorithm to find the best recommendations.",
+    desc: "This web app with good user interface gives animes suggestions based on searched anime. It uses KNN algorithm to find the best recommendations.",
+    link:"https://github.com/samhitaveluri/Animenz",
   },
   {
     id: 2,
     title: "Cryptoverse",
     img: "/crypto.png",
     desc: "This web app gives news updates along price graphs of cryptocurrencies over years. Main tech used - React.js, REST-apis, Reduxjs/toolkit, Chart.js.",
+    link:"https://github.com/samhitaveluri/Cryptoverse",
   },
   {
     id: 3,
     title: "ChatApp",
     img: "/chatapp.png",
-    desc: "This app built with Node JS and ChatEngine.io will support group chats, 1-on-1 chats, realtime messaging, image and file support, read receipts and more!.",
+    desc: "Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend with a custom UI ",
+    link:"https://github.com/samhitaveluri/ChatApp",
   },
    
 ];
@@ -43,7 +46,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <button><a href={item.link}>See Demo</a></button>
           </motion.div>
         </div>
       </div>

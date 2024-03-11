@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: "Animenz",
     img: "/animenz.png",
-    desc: "This web app with good user interface gives animes suggestions based on searched anime. It uses deep learning soft clustering alogorithms to find the best recommendations.",
+    desc: "This web app with good user interface gives animes suggestions based on searched anime. It uses KNN alogorithm to find the best recommendations.",
   },
   {
     id: 2,

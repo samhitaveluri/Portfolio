@@ -73,7 +73,7 @@ const Hero = () => {
       >
         motivation consistency
       </motion.div>
-      <div className="imageContainer" draggable="false>
+      <div className="imageContainer" draggable="false">
         <img src="/final.png" alt="" />
       </div>
     </div>

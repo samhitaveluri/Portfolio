@@ -20,7 +20,7 @@ const items = [
   {
     id: 3,
     title: "Podmedia",
-    img: "/chatapp.png",
+    img: "/podmedia.png",
     desc: "An application that summarizes podcast episodes by providing the RSS feed URL of the podcast. Used - Streamlit,WhisperX and GPT3.5 APIs from OpenAI.",
     link:"https://github.com/samhitaveluri/Podmedia",
   },

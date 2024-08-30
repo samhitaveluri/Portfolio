@@ -19,10 +19,10 @@ const items = [
   },
   {
     id: 3,
-    title: "ChatApp",
+    title: "Podmedia",
     img: "/chatapp.png",
-    desc: "Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend with a custom UI ",
-    link:"https://github.com/samhitaveluri/ChatApp",
+    desc: "An application that summarizes podcast episodes by providing the RSS feed URL of the podcast. Used - Streamlit,WhisperX and GPT3.5 APIs from OpenAI.",
+    link:"https://github.com/samhitaveluri/Podmedia",
   },
    
 ];

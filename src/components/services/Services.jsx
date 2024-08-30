@@ -87,7 +87,7 @@ const Services = () => {
         >
           <h2>Backend</h2>
           <p>
-            Node.js, Express.js, Postgre, MySQL. 
+            Node.js, MongoDB, MySQL. 
           </p> 
           <h5>Familiar with backend javascript frameworks, API's and Database management</h5>
         </motion.div>
@@ -97,7 +97,7 @@ const Services = () => {
         >
           <h2>Familiar with</h2>
           <p>
-            Machine learning, Android developement. 
+            Machine learning, Deep learning. 
           </p> 
         </motion.div>
       </motion.div>

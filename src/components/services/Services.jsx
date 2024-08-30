@@ -75,7 +75,7 @@ const Services = () => {
         >
           <h2>Frontend</h2>
           <p>
-            Html, CSS, Bootstrap, React.js, Jquery, Redux.  
+            Html, CSS, Bootstrap, PHP, React.js, Jquery, Redux.  
           </p> 
           <h5>
             For state management and dynamic frontend to make the web app efficient.
@@ -97,7 +97,7 @@ const Services = () => {
         >
           <h2>Familiar with</h2>
           <p>
-            Machine learning, Deep learning. 
+            Machine learning, Fullstack web developement. 
           </p> 
         </motion.div>
       </motion.div>

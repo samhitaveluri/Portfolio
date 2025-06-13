@@ -5,23 +5,23 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Animenz",
-    img: "/animenz.png",
-    desc: "This web app with good user interface gives animes suggestions based on searched anime. It uses KNN algorithm to find the best recommendations.",
-    link:"https://github.com/samhitaveluri/Animenz",
+    title: "Smag",
+    img: "/smag.png",
+    desc: "Gives salyes analysis along with insights and strategies to improve sales for small to medium scale business",
+    link:"https://github.com/samhitaveluri/smag-full",
   },
   {
     id: 2,
-    title: "Cryptoverse",
-    img: "/crypto.png",
-    desc: "This web app gives news updates along price graphs of cryptocurrencies over years. Main tech used - React.js, REST-apis, Reduxjs/toolkit, Chart.js.",
-    link:"https://github.com/samhitaveluri/Cryptoverse",
+    title: "GPS Attendance Tracker",
+    img: "/gps.png",
+    desc: "Automatic employee attendance tracking app that runs in background along with fake gps and anomaly detection features.",
+    // link:"https://github.com/samhitaveluri/Cryptoverse",
   },
   {
     id: 3,
     title: "Podmedia",
     img: "/podmedia.png",
-    desc: "An application that summarizes podcast episodes by providing the RSS feed URL of the podcast. Used - Streamlit,WhisperX and GPT3.5 APIs from OpenAI.",
+    desc: "An application that summarizes podcast episodes by providing the RSS feed URL of the podcast.",
     link:"https://github.com/samhitaveluri/Podmedia",
   },
    
